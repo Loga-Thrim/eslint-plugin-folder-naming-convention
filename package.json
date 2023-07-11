@@ -1,0 +1,44 @@
+{
+  "name": "eslint-plugin-folder-naming-convention",
+  "version": "1.0.3",
+  "description": "Eslint rule for consistent folder name.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "lodash.camelcase": "4.3.0",
+    "lodash.kebabcase": "4.1.1",
+    "lodash.snakecase": "4.1.1",
+    "lodash.upperfirst": "4.3.1"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "coveralls": "2.13.0",
+    "eslint": "^2.0.0",
+    "eslint-plugin-filenames": "^1.0.0",
+    "istanbul": "0.4.5",
+    "mocha": "3.2.0",
+    "sinon": "2.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/selaux/eslint-plugin-filenames.git"
+  },
+  "author": "Stefan Lau <github@stefanlau.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/selaux/eslint-plugin-filenames/issues"
+  },
+  "homepage": "https://github.com/selaux/eslint-plugin-filenames",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "folder",
+    "foldername",
+    "path"
+  ]
+}
